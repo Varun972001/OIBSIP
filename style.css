@@ -1,0 +1,103 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size:12px;
+    font-family: 'Dongle',sans-serif;
+}
+body
+{
+    background-color: floralwhite;
+}
+.grid-container
+{
+    height:100vh;
+    display: grid;
+    grid-template-columns: 45em;
+    grid-template-rows: repeat(4,10em);
+    grid-gap:2em;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+/* .grid-item
+{
+    border:2px solid red;
+} */
+.heading
+{
+    font-size:5em;
+    width:8em;
+    text-align: center;
+}
+.input-type
+{
+    display:flex;
+    width:40em;
+    justify-content: space-between;
+}
+.wrapper
+{
+    display:flex;
+    flex-direction: column;
+    height:6.5em;
+    justify-content: space-between;
+}
+.wrapper label
+{
+    font-size:2.5em;
+    text-align: center;
+}
+.wrapper .inp-temp
+{
+    width:10em;
+    font-size:1.5em;
+    border-radius: 0.3em;
+    text-align: center;
+    background-color:antiquewhite;
+    border:none;
+
+}
+.wrapper .type-temp
+{
+    font-size: 2em;
+    text-align: center;
+    width:6em;
+    background-color: beige;
+    border:none;
+}
+.result
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.result label
+{
+    font-size:3em;
+}
+.result .temp
+{
+    width:6em;
+    height:1.5em;
+    background-color:blanchedalmond;
+    font-size:3em;
+    border-radius: 0.3em;
+}
+.convert
+{
+    font-size:3em;
+    width:6em;
+    height:1.5em;
+    border-radius:0.3em;
+    cursor:pointer;
+    background-color:goldenrod;
+    transition: background-color 0.2s;
+    border:none;
+}
+.convert:hover
+{
+    background-color: darkgoldenrod;
+}

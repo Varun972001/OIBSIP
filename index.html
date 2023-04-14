@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Convertor</title> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item heading">Temprature Converter</div>
+        <div class="grid-item input-type">
+            <div class="wrapper">
+                <label for="temp">Degree</label>
+                <input id="temp" type="number" style="font-size:20px;" class="inp-temp"/>
+            </div>
+            <div class="wrapper">
+                <label>Temprature Type</label>
+                <select class="type-temp" id="temp-menu">
+                    <option>Farenhiet</option>
+                    <option>Celcius</option>
+                </select>
+            </div>
+        </div>
+        <div class="grid-item result">
+            <label>Result</label>
+            <div class="temp" id="res"></div>
+        </div>
+        <input type="button" value="Convert" class="grid-item convert" onclick="Change();"/>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
