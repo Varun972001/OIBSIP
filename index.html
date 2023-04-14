@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title> 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+      <!--Head Section-->
+      <div class="head"></div>
+      <img src="./Images/wave.png" alt="Wave Image" class="image">
+
+      <!--Logo-->
+      <img src="./Images/logo.png" alt="News Logo" class="logo">
+
+      <!-- Cover Photo -->
+      <img src="./Images/news.png" alt="Cover News" class="cimg">
+
+      <!--Navigation Page-->
+      <div class="sidebar" id="side" onclick="slide();">
+        <div class="menu">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+          <div class="bar bar3"></div>
+        </div>
+        <ul class="list" type="none">
+          <li class="item"><a class="link" href="#">Home</a></li>
+          <li class="item"><a class="link" href="#">Projects</a></li>
+          <li class="item"><a class="link" href="#">Blogs</a></li>
+          <li class="item"><a class="link" href="#">Careers</a></li>
+          <li class="item"><a class="link" href="#">Contacts</a></li>
+        </ul>
+      </div>
+
+      <!--Heading-->
+      <div class="head-content">The NEWS</div>
+
+      <!--Content-->
+      <pre>
+        Subscribe For The Latest News
+        From Around The World
+      </pre>
+
+      <!--Input-->
+      <div class="content">
+        <input type="email" placeholder="Enter Your Email ID" class="em"></input>
+        <input type="button" value="Submit" class="enter"></input>
+      </div>
+
+      <!--Singup-->
+      <input type="button" class="sign" value="SignIn"></input>
+</body>
+</html>
