@@ -1,0 +1,270 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.header
+{
+    height:10em;
+    width:100%;
+    background-color:#1f203a;
+}
+.container
+{
+    width:45em;
+    position:absolute;
+    top:2.8em;
+    right:5em;
+    display: flex;
+    justify-content: space-between;
+}
+.links
+{
+    color:white;
+    font-size: 3em;
+    cursor:pointer;
+    text-decoration: none;
+}
+.items:hover
+{
+    text-decoration: white;
+}
+.icon
+{
+    position:absolute;
+    top:1.3em;
+    left:4em;
+}
+.icon i
+{
+    font-size:7em;
+    color:white;
+}
+.home
+{
+    height:81vh;
+    width:100%;
+    background-image:url('./Images/electric.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.h-image
+{
+    border-radius: 50%;
+    position: absolute;
+    top:12em;
+    left:52em;
+    border:1em solid white;
+}
+.home .name
+{
+    font-size:6em;
+    position:absolute;
+    bottom:0.7em;
+    left:7.2em;
+}
+.home .name1
+{
+    font-weight:900;
+    font-family:Arial, Helvetica, sans-serif
+}
+.About
+{
+    height:97vh;
+    width:100%;
+    background-image:url('./Images/electric.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.About .head
+{
+    font-size:6.5em;
+    position:absolute;
+    bottom:-1.7em;
+    left:9em;
+    text-decoration: underline;
+}
+.wrapper
+{
+    height:43em;
+    width:95em;
+    display:flex;
+    position:absolute;
+    top:78em;
+    left:22em;
+}
+.wrapper .mine
+{
+    border-radius:50%;
+    border:0.3em solid white;
+    position: relative;
+    bottom:-3%;
+}
+.content
+{
+    height:33em;
+    width:50em;
+    position: relative;
+    top:3%;
+    left:14%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .bio
+{
+    margin:1.3em 0;
+    font-size: 2.2em;
+    font-family: 'Alkatra', cursive;
+    font-weight: 100;
+}
+.content .button
+{
+    position: relative;
+    bottom:0;
+    right:5%;
+}
+.About .wrapper .ref 
+{
+    width:40em;
+    height: 10em;
+    display:inline-flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:17%;
+    left:-5%;
+}
+.About .wrapper .ref .move
+{
+    font-size:4em;
+    cursor:pointer;
+}
+.skills
+{
+    height:97vh;
+    width:100%;
+    background-image:url('./Images/electric.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.skills .head
+{
+    font-size:6.5em;
+    position:relative;
+    bottom:-2em;
+    left:10em;
+    text-decoration: underline;
+}
+.skills .bar-container
+{
+    width:120em;
+    height:50em;
+    position: relative;
+    left:15%;
+    top:25%;
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    grid-gap:0 4em;
+    align-items: center;
+}
+.skills .bar-container .bar-item
+{
+    /* border: 2px solid black; */
+    display:flex;
+}
+.skills .bar-container .bar-item .sub-head
+{
+    font-size:2.5em;
+}
+.skills .bar-container .bar-item .bar
+{
+    width:30em;
+    height:2em;
+    position:relative;
+    left:10%;
+    top:0.2em;
+    background-color: white;
+    border-radius:10em;
+    border:2px solid black;
+}
+.skills .bar-container .bar-item .bar .bar1
+{
+    height:1.5em;
+    background-color: black;
+    border-radius:10em;
+    color:white;
+    text-align: center;
+    font-size:1.5em;
+}
+.skills .bar-container .HTML .bar .bar1
+{
+    width:18em;
+}
+.skills .bar-container .CSS .bar .bar1
+{
+    width:17em;
+}
+.skills .bar-container .JS .bar .bar1
+{
+    width:10em;
+}
+.skills .bar-container .React .bar .bar1
+{
+    width:8em;
+}
+.skills .bar-container .Node .bar .bar1
+{
+    width:8em;
+}
+.skills .bar-container .C .bar .bar1
+{
+    width:13em;
+}
+.skills .bar-container .JS .bar
+{
+    left:3em;
+}
+.skills .bar-container .React .bar
+{
+    left:3em;
+}
+.name
+{
+    font-size: 3em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.name1
+{
+    font-size:1em;
+}
+
+.resume
+{
+    margin-top:0.4em;
+    font-size:2em;
+    padding:0.5em 3em 0.5em 1.5em;
+    border-radius:0.5em;
+    cursor: pointer;
+}
+.resume:hover
+{
+    background-color: black;
+    color:white;
+}
+#ficon
+{
+    position:absolute;
+    bottom:0.8em;
+    right:1.5em;
+}
+.footer
+{
+    position: absolute;
+    bottom:0;
+    height:5.5em;
+    width:100%;
+    left:13em;
+
+}
